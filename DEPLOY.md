@@ -9,7 +9,7 @@
 2. 左側 **Workers & Pages → Create → Pages → Upload assets**
 3. 把 **整個 `didog-site/` 資料夾**（含 index.html）拖進去
 4. 按 Deploy → 得到 `https://xxx.pages.dev` 網址
-5. 要綁自己的網域：Pages → Custom domains → 輸入 `didog.com.tw`
+5. 要綁自己的網域：Pages → Custom domains → 輸入 `didog.trucop.com`
 
 ## 選項 B：Netlify Drop（最快，不用裝東西）
 1. 開 https://app.netlify.com/drop
@@ -38,7 +38,7 @@ git push -u origin main
 - [ ] 用正式菜單更新 `menu.html`
 
 ## 網域
-- 已有 `didog.com.tw`？直接把 DNS 指到主機（Cloudflare 最快）
+- 已有 `didog.trucop.com`？直接把 DNS 指到主機（Cloudflare 最快）
 - 沒有？可在 Cloudflare / Gandi / Namecheap 註冊 `.com.tw`
 
 ## 需要我幫你按哪個？

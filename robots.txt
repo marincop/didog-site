@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.didog.com.tw/sitemap.xml
+Sitemap: https://didog.trucop.com/sitemap.xml
