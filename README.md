@@ -26,7 +26,7 @@ python3 -m http.server 8080
 - **GitHub Pages**：推到 repo → Settings → Pages → 選 branch
 
 ## 你要改的地方（3 分鐘）
-1. **線上訂位網址** → 已設定為 `https://marincop-didog01.hf.space/booking/`（在 `js/main.js` 的 `BOOKING_URL`）。
+1. **線上訂位網址** → 已設定為 `https://didog.trucop.com/booking/`（在 `js/main.js` 的 `BOOKING_URL`）。
 2. **Logo** → 用你的真 logo 覆蓋 `assets/logo.svg`（或改成 .png 並在 `index.html` 調整檔名）
 3. **照片** → 把實拍照片放進 `assets/img/`，覆蓋下列檔名即可：
    - `hero.jpg`（首頁大圖，建議 1600×900 以上、深色系）
@@ -37,7 +37,7 @@ python3 -m http.server 8080
 ## ⚠️ 待你確認的資料
 - **中和環球概念店地址**：目前暫填「新北市中和區中山路三段112號（Global Mall 中和）」，請確認正確樓層/櫃位
 - **中和環球概念店營業時間**：暫填「依商場營業時間」，請補上實際時間
-- 已設定：線上訂位網址 https://marincop-didog01.hf.space/booking/
+- 已設定：線上訂位網址 https://didog.trucop.com/booking/
 - 已查證：中和景平總店 新北市中和區景平路154號、02-8228-6658、17:00–00:00
 
 ## 素材授權提醒
