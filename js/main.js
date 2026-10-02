@@ -38,11 +38,12 @@
 
   // 訂位連結：若設定 BOOKING_URL 則套用；否則退回電話
   // ⬇️ 把下方字串改成你的線上訂位網址即可（會自動套用到所有 [data-booking]）
-  var BOOKING_URL = 'https://marincop-didog01.hf.space/booking/'; // 線上訂位
+  var BOOKING_URL = 'https://didog.trucop.com/booking/'; // 線上訂位
   var PHONE = 'tel:0229410528';
   document.querySelectorAll('[data-booking]').forEach(function (el) {
     el.setAttribute('href', BOOKING_URL ? BOOKING_URL : PHONE);
-    if (BOOKING_URL) { el.setAttribute('target', '_blank'); el.setAttribute('rel', 'noopener'); }
+    // 同網域，直接同頁開啟
+    if (BOOKING_URL) { el.removeAttribute('target'); el.removeAttribute('rel'); }
   });
 
   // 捲動進場動畫
